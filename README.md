@@ -1,3 +1,23 @@
+#SETUP:
+1-Install node https://nodejs.org/en/download/
+2-check node version with command node -v current version is : v11.11.0 npm -v current version is : 6.7.0
+3-Install mongodb sever mongodb
+4-Install compas a GUI for mongodb compass
+5-Install visual studio code
+6-git clone code from repository : git clone https://github.com/adel-software/democracyos_win.git
+
+#TODO:
+1- run script Update_Node_Path.ps1 ( you must restart visual studio code when you do this)
+2- install snyk with this command : npm install -g snyk ( probably you need to install it one time)
+3- install gulp with this command : npm install -g gulp ( probably you need to install it one time , but not sure)
+4- run command : npm install
+5- run command : npm run build
+6- run command : npm run start
+7- enjoy debugging also work
+8- when you update code you can juste run : npm run go ( it will do build + start )
+
+
+
 # DemocracyOS [![Deploy](https://www.herokucdn.com/deploy/button.png)](http://bit.ly/1iHAcWz)
 [![Dependencies](https://david-dm.org/DemocracyOS/democracyos.svg)](https://david-dm.org/DemocracyOS/democracyos.svg)
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/DemocracyOS/democracyos)
